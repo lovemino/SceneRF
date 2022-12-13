@@ -32,7 +32,7 @@ If you find this work or code useful, please cite our [paper](https://arxiv.org/
 # Table of Content
 - [News](#news) 
 - [Installation](#installation)  
-- [Datasets](#datasets)
+- [Dataset](#dataset)
 - [Training](#training)
 - [Evaluation](#evaluation)
   - [Novel depths synthesis](#novel-depths-synthesis)
