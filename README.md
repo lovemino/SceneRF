@@ -90,7 +90,7 @@ $ pip install -e ./
     - Odometry ground truth poses (4 MB)
     - Velodyne laser data, 80 GB
 
-2. To evaluate scene reconstruction, please download [the SemanticKITTI voxel data (700 MB)](http://www.semantic-kitti.org/assets/data_odometry_voxels.zip).
+2. To evaluate scene reconstruction, please download **the SemanticKITTI voxel data (700 MB)** and **all extracted data for the training set (3.3 GB)**  on [Semantic KITTI download website](http://www.semantic-kitti.org/dataset.html).
 
 3. Create a folder to store preprocess data at `/path/to/kitti/preprocess/folder`.
 
@@ -134,7 +134,7 @@ $ export EVAL_SAVE_DIR=/path/to/evaluation/save/folder
 $ export RECON_SAVE_DIR=/path/to/reconstruction/save/folder
 ```
     
-## Evaluate novel depths synthesis
+## Novel depths synthesis
 Supposed we obtain the model from the training step at `/path/to/model/checkpoint/last.ckpt`. We follow the steps below to evaluate the novel depths synthesis performance. 
 1. Compute the depth metrics on all frames in each sequence, additionally grouped by the distance to the input frame.
 
@@ -155,7 +155,7 @@ $ python scenerf/scripts/evaluation/agg_depth_metrics.py \
     --preprocess_root=$KITTI_PREPROCESS
 ```
 
-## Evaluate novel views synthesis
+## Novel views synthesis
 Given the trained model at `/path/to/model/checkpoint/last.ckpt`, the novel views synthesis performance is obtained as followed:
 1. Render an RGB image for every frame in each sequence.
 ```
