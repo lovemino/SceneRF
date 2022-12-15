@@ -1,10 +1,15 @@
+<div align='center'>
+
 # SceneRF: Self-Supervised Monocular 3D Scene Reconstruction with Radiance Fields
-[Anh-Quan Cao](https://anhquancao.github.io),
+
+[Anh-Quan Cao](https://anhquancao.github.io)&nbsp;&nbsp;&nbsp;
 [Raoul de Charette](https://team.inria.fr/rits/membres/raoul-de-charette/)  
 Inria, Paris, France.  
 
 [![arXiv](https://img.shields.io/badge/arXiv%20%2B%20supp-2212.02501-purple)](https://arxiv.org/abs/2212.02501) 
 [![Project page](https://img.shields.io/badge/Project%20Page-SceneRF-red)](https://astra-vision.github.io/SceneRF/)
+
+</div>
 
 If you find this work or code useful, please cite our [paper](https://arxiv.org/abs/2212.02501) and [give this repo a star](https://github.com/astra-vision/SceneRF/stargazers):
 ```
@@ -27,6 +32,7 @@ If you find this work or code useful, please cite our [paper](https://arxiv.org/
     <td><img style="width:100%" src="./teaser/3d_recon.gif" /></td>
 </tr>
 </table>
+
 
 
 # Table of Content
