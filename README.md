@@ -41,14 +41,12 @@ If you find this work or code useful, please cite our [paper](https://arxiv.org/
 - [Dataset](#dataset)
 - [Training](#training)
 - [Evaluation](#evaluation)
+  - [Pretrained model](#pretrained-model)
   - [Novel depths synthesis](#novel-depths-synthesis)
   - [Novel views synthesis](#novel-views-synthesis)
   - [Scene reconstruction](#scene-reconstruction)
 - [Acknowledgment](#acknowledgment)
 
-# News
-
-- Pretrained models will be released soon :rotating_light:
 
 # Installation
 
@@ -139,6 +137,8 @@ Create folders to store intermediate evaluation data at `/path/to/evaluation/sav
 $ export EVAL_SAVE_DIR=/path/to/evaluation/save/folder
 $ export RECON_SAVE_DIR=/path/to/reconstruction/save/folder
 ```
+## Pretrained model
+Please download the [pretrained model](https://drive.google.com/file/d/1mfVM2oXDw6MkWaD1Ds-PG2RBt9k-q8yE/view?usp=share_link).
     
 ## Novel depths synthesis
 Supposed we obtain the model from the training step at `/path/to/model/checkpoint/last.ckpt`. We follow the steps below to evaluate the novel depths synthesis performance. 
