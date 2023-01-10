@@ -210,5 +210,6 @@ $ python scenerf/scripts/evaluation/eval_sr.py \
 ```
 
 # Acknowledgment
-The work was partly funded by French project SIGHT (ANR-20-CE23-0016) and was performed using HPC resources from GENCI–IDRIS (Grant 2021-AD011012808 and 2022-AD011012808R1). We thank Fabio Pizzati and Ivan Lopes for their kind proofreading.
+The work was partly funded by the French project SIGHT (ANR-20-CE23-0016) and conducted in the SAMBA collaborative
+project, co-funded by BpiFrance in the Investissement d’Avenir Program. It was performed using HPC resources from GENCI–IDRIS (Grant 2021-AD011012808 and 2022-AD011012808R1). We thank Fabio Pizzati and Ivan Lopes for their kind proofreading.
 
