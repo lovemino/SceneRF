@@ -104,6 +104,7 @@ def main(
                     
                 
                 tsdf_grid, _ = tsdf_vol.get_volume()
+                verts, faces, norms, colors = tsdf_vol.get_mesh()
                 
                 
                 np.save(tsdf_save_path, tsdf_grid)
