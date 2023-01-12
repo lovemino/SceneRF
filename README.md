@@ -48,7 +48,7 @@ If you find this work or code useful, please cite our [paper](https://arxiv.org/
 - [Acknowledgment](#acknowledgment)
 
 # News
-- TODO: Add code to draw the mesh
+- TODO: Add code for drawing the mesh
 # Installation
 
 1. Create conda environment:
