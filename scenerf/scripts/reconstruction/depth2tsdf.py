@@ -98,7 +98,7 @@ def main(
                     depth = np.load(depth_filepath)
                     
                     render_rgb_filepath = os.path.join(render_rgb_save_dir, "{}_{}_{}.png".format(frame_id, step, angle))
-                    rgb = read_rgb(render_rgb_filepath)
+                    rgb = read_rgb(render_rgb_filepath) * 255.0
 
                     tsdf_vol.integrate(rgb, depth, cam_K, np.linalg.inv(T_velo2cam) @ rel_pose, obs_weight=1.)
                     
