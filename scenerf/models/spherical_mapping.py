@@ -48,11 +48,13 @@ class SphericalMapping(nn.Module):
 
     def __init__(self,
                  img_W, img_H, out_img_W, out_img_H,
+                 # These numbers are calculated by running: python scenerf/scripts/determine_angles.py
                  v_angle_max=104.7294,
                  v_angle_min=75.4815,
                  h_angle_max=131.1128,
                  h_angle_min=49.5950,
                  ):
+
         super(SphericalMapping, self).__init__()
         self.img_W = img_W
         self.img_H = img_H
