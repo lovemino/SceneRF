@@ -3,6 +3,10 @@ import numpy as np
 from scenerf.models.spherical_mapping import SphericalMapping, pix_2_cam_pts
 
 if __name__ == "__main__":
+    """
+    Please note that if you want to adjust the code to work with your own datasets, 
+    you simply need to modify the "cam_K" and "img_W" and "img_H" parameters accordingly.
+    """
     cam_K = torch.tensor([[707.0912,   0.0000, 601.8873],
                           [0.0000, 707.0912, 183.1104],
                           [0.0000,   0.0000,   1.0000]])
