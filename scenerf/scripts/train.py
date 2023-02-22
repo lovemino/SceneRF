@@ -37,7 +37,7 @@ seed_everything(42)
 @click.option('--add_fov_hor', default=20, help='Amount of angle in degree added to left and right of the horizontal FOV')
 @click.option('--add_fov_ver', default=8, help='Amount of angle in degree added to top and bottom of the vertical FOV')
 # ideally sphere_h and sphere_w should be img_H * 1.5, img_W * 1.5 (Because we increase the FOV by 1.5). 
-# However, we empirically found that any sphere_h >= img_H and any sphere_w >= img_W has almost similar performance.
+# However, we empirically found that any sphere_h >= img_H and any sphere_w >= img_W have almost similar performance. 
 @click.option('--sphere_h', default=452, help='The height of the discretized spherical grid') 
 @click.option('--sphere_w', default=1500, help='The width of the discretized spherical grid') 
 @click.option('--sequence_distance', default=10, help='Distance between the input and the last frames in the sequence')
